@@ -13,7 +13,7 @@
   "scripts": {
     "start": "$(npm bin)/grunt serve",
     "test": "$(npm bin)/grunt karma",
-    "postinstall": "$(npm bin)/typings install"
+    "postinstall": "typings install"
   },
   "dependencies": {
     "@angular/common": "2.0.0-rc.1",
