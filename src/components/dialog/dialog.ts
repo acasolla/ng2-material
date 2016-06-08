@@ -21,6 +21,7 @@ import {KeyCodes} from '../../core/key_codes';
 
 @Component({
   selector: 'md-dialog',
+   styles:[require('dialog.scss')],
   directives: [MdDialogTitle, MdDialogActions, MdDialogPortal],
   providers: [Overlay],
   encapsulation: ViewEncapsulation.None,

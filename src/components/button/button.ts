@@ -57,6 +57,7 @@ export class MdButton {
   inputs: ['disabled'],
   template: BUTTON_TEMPLATE,
   encapsulation: ViewEncapsulation.None,
+   styles:[require('button.scss')],
   host: {
     '(click)': 'onClick($event)',
     '(mousedown)': 'onMousedown()',
